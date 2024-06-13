@@ -1,0 +1,109 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+#background{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+}
+
+#sun{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4vw;
+	height: 4vw;
+	border-radius: 50%;
+	color: white;
+	text-shadow: 0 0 1vw black;
+	background-color: rgb(229, 255, 0);
+	box-shadow: 0 0 2vw 10px rgb(185, 119, 19);
+}
+
+#mercury-ring{
+
+	width: 8vw;
+	height: 8vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+
+#venus-ring{
+
+	width: 11vw;
+	height: 11vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#earth-ring{
+
+	width: 14vw;
+	height: 14vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#mars-ring{
+
+	width: 17vw;
+	height: 17vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#jupiter-ring{
+
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#saturn-ring{
+
+	width: 23vw;
+	height: 23vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#uranus-ring{
+	width: 26vw;
+	height: 26vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#neptune-ring{
+
+	width: 29vw;
+	height: 29vw;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/*
+  for some reason I cant assign border to the class
+  it would make the last ring thicker
+*/
+.ring{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+#section-1{
+	display:block;
+	width: 100%;
+	height: 25vh;
+	background-color: rgb(211, 44, 44);
+}
